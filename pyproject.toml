@@ -1,0 +1,12 @@
+[project]
+name = "ai-tour"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.152.0",
+]
+
+[tool.fastapi]
+entrypoint = "src.main:app"
